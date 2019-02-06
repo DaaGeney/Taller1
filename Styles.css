@@ -1,12 +1,17 @@
-#main-header {
-	background: #333;
-	color: white;
-	height: 80px;
-}	
-	#main-header a {
+
+#main-header a {
 		color: white;
 	}
- 
+
+
+    div {
+        padding: 0px 250px 20px 250px ;
+        
+        line-height: 1.5em; /* Espacio de interlineado*/
+        
+        padding-top: 20px; /* Relleno superior igual a la altura de la cabecera*/
+    }
+    
 /*
  * Logo
  */
@@ -54,9 +59,22 @@ nav {
 			nav ul li a {
 				display: block;
 				padding: 0 10px;
-				text-decoration: none;
 			}
 			
 				nav ul li a:hover {
 					background: #0b76a6;
-				}
+                }
+#main-header {
+        background: #333;
+         color: white;
+         height: 80px;
+        
+         width: 67%; /* hacemos que la cabecera ocupe un porcentaje del ancho de la página */
+        top:0%;
+         position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+#introduccion {
+    background: #333;
+     
+}
+
