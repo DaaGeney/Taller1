@@ -1,4 +1,8 @@
 
+.personajes{
+	width: 270px;
+	height: 400px;
+}
 .centrado{
 	margin: 0px auto;
 	display: block;
@@ -7,9 +11,10 @@
 #main-header a {
 	color: white;
 }
-
-
-
+p{
+	font-size: 15px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
 div {
 	padding: 0px 10px 50px 10px ;
 	background: #ffffff;
@@ -82,3 +87,4 @@ nav ul li a:hover {
 	top:0%; 
 	 position: fixed; /* cabecera tenga una posición fija */
 }
+
